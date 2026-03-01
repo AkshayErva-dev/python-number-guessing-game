@@ -3,7 +3,7 @@ import random
 num = random.randint(1,30)
 guess = "none"
 while guess != num:
-    guess = int(input("Enter the number : "))
+    guess = int(input("Enter the number between 1 and 30 : "))
     if guess == num:
         print("Congratulations!")
         print("You have guessed the correct number")
@@ -13,3 +13,4 @@ while guess != num:
     else:
          print("Oops, you guessed the wrong number")
          print("Please Guess a higher number")
+
